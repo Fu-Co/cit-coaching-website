@@ -740,54 +740,89 @@ section h2 {
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 100px 0 60px;
-    }
-    
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-    
-    .hero-buttons {
+        padding: 80px 0 40px 0;
+        min-height: 100vh;
         justify-content: center;
+        align-items: center;
+        gap: 0;
     }
-    
-    .roadmap-item {
+    .hero-content {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+    .hero-content p {
+        font-size: 1.1rem;
+        white-space: normal;
+    }
+    .hero-buttons {
         flex-direction: column;
-        text-align: center;
+        gap: 1rem;
+        width: 100%;
+        align-items: center;
     }
-    
-    .contact-content {
-        grid-template-columns: 1fr;
+    .cta-button {
+        width: 90%;
+        font-size: 1.1rem;
+        padding: 1rem 0;
+        max-width: 320px;
     }
-    
-    .recommended-grid,
-    .events-grid {
-        grid-template-columns: 1fr;
+    .hero-image {
+        padding-right: 0;
+        margin-top: 1.5rem;
+        width: 80vw;
+        max-width: 300px;
+        min-width: 160px;
     }
-
-    .packages-grid {
-        grid-template-columns: 1fr;
+    .hero-placeholder {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1/1;
+        font-size: 4rem;
+        min-width: 120px;
+        max-width: 300px;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 480px) {
     .container {
-        padding: 0 15px;
+        padding: 0 10px;
     }
-    
+    .hero {
+        padding: 60px 0 20px 0;
+        min-height: 100vh;
+    }
     .hero-content h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
-    
     .hero-content p {
+        font-size: 0.98rem;
+    }
+    .hero-buttons {
+        gap: 0.7rem;
+    }
+    .cta-button {
         font-size: 1rem;
+        padding: 0.9rem 0;
     }
-    
+    .hero-image {
+        max-width: 220px;
+        min-width: 100px;
+    }
+    .hero-placeholder {
+        font-size: 2.5rem;
+        min-width: 80px;
+        max-width: 220px;
+    }
     section {
-        padding: 60px 0;
+        padding: 40px 0;
     }
-    
     section h2 {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 } 
