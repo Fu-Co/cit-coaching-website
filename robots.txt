@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.citkorea.co.kr/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1 

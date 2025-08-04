@@ -3,57 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CiT코칭연구소 - 교육 로드맵 & 추천 과정</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>CiT코칭연구소 - 체계적인 코칭 교육 로드맵 | KAC, KPC, PCC 자격증 과정</title>
+    <meta name="description" content="CiT코칭연구소에서 체계적인 코칭 교육 로드맵을 통해 KAC, KPC, PCC 자격증을 취득하세요. 3Cs 과정으로 국내/국제 동시인증, 전문코치 양성 프로그램을 제공합니다.">
+    <meta name="keywords" content="코칭교육, 코칭연구소, KAC자격증, KPC자격증, PCC자격증, 3Cs과정, 전문코치, 코칭로드맵, 한국코치협회, ICF">
+    <meta name="author" content="CiT코칭연구소">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.citkorea.co.kr/">
+    <meta property="og:title" content="CiT코칭연구소 - 체계적인 코칭 교육 로드맵">
+    <meta property="og:description" content="KAC, KPC, PCC 자격증 취득을 위한 체계적인 코칭 교육 과정을 제공합니다. 3Cs 과정으로 국내/국제 동시인증 가능.">
+    <meta property="og:image" content="https://www.citkorea.co.kr/images/cit-coaching-og.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.citkorea.co.kr/">
+    <meta property="twitter:title" content="CiT코칭연구소 - 체계적인 코칭 교육 로드맵">
+    <meta property="twitter:description" content="KAC, KPC, PCC 자격증 취득을 위한 체계적인 코칭 교육 과정을 제공합니다.">
+    <meta property="twitter:image" content="https://www.citkorea.co.kr/images/cit-coaching-og.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.citkorea.co.kr/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/pretendard.css" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "CiT코칭연구소",
+        "description": "체계적인 코칭 교육과 지속적인 연구를 통해 개인과 조직의 성장을 지원하는 코칭 교육 기관",
+        "url": "https://www.citkorea.co.kr/",
+        "logo": "https://www.citkorea.co.kr/images/cit-logo.png",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "서초중앙로 48",
+            "addressLocality": "서초구",
+            "addressRegion": "서울특별시",
+            "postalCode": "06618",
+            "addressCountry": "KR"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+82-2-567-7136",
+            "contactType": "customer service",
+            "email": "class@citkorea.co.kr"
+        },
+        "sameAs": [
+            "https://blog.naver.com/citcoaching",
+            "https://www.facebook.com/citcoaching",
+            "https://www.instagram.com/citcoaching"
+        ]
+    }
+    </script>
 </head>
 <body>
     <!-- 헤더 -->
-    <header class="header">
-        <nav class="navbar">
+    <header class="header" role="banner">
+        <nav class="navbar" role="navigation" aria-label="메인 네비게이션">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <h1>CiT코칭연구소</h1>
+                    <h1><a href="#home" aria-label="CiT코칭연구소 홈페이지">CiT코칭연구소</a></h1>
                 </div>
-                <ul class="nav-menu">
-                    <li><a href="#home">홈</a></li>
-                    <li><a href="#roadmap">교육 로드맵</a></li>
-                    <li><a href="#recommended">추천 교육</a></li>
-                    <li><a href="#free-events">무료 행사</a></li>
-                    <li><a href="#packages">신상 패키지</a></li>
+                <ul class="nav-menu" role="menubar">
+                    <li role="none"><a href="#home" role="menuitem" aria-label="홈페이지로 이동">홈</a></li>
+                    <li role="none"><a href="#roadmap" role="menuitem" aria-label="교육 로드맵 섹션으로 이동">교육 로드맵</a></li>
+                    <li role="none"><a href="#recommended" role="menuitem" aria-label="추천 교육 섹션으로 이동">추천 교육</a></li>
+                    <li role="none"><a href="#free-events" role="menuitem" aria-label="무료 행사 섹션으로 이동">무료 행사</a></li>
+                    <li role="none"><a href="#packages" role="menuitem" aria-label="신상 패키지 섹션으로 이동">신상 패키지</a></li>
                 </ul>
-                <div class="hamburger">
+                <button class="hamburger" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav-menu">
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </button>
             </div>
         </nav>
     </header>
 
     <!-- 메인 섹션 -->
-    <section id="home" class="hero">
+    <main id="home" class="hero" role="main">
         <div class="hero-content">
             <h1>CiT코칭연구소</h1>
             <p>체계적인 코칭 교육 로드맵으로<br>당신의 코칭 여정을 이어가세요!</p>
             <div class="hero-buttons">
-                <a href="#roadmap" class="cta-button primary">교육 로드맵 보기</a>
-                <a href="#recommended" class="cta-button secondary">추천 교육 확인</a>
+                <a href="#roadmap" class="cta-button primary" aria-label="교육 로드맵 섹션으로 이동">교육 로드맵 보기</a>
+                <a href="#recommended" class="cta-button secondary" aria-label="추천 교육 섹션으로 이동">추천 교육 확인</a>
             </div>
         </div>
-        <div class="hero-image">
+        <div class="hero-image" aria-hidden="true">
             <div class="hero-placeholder">
-                <i class="fas fa-road"></i>
+                <i class="fas fa-road" aria-hidden="true"></i>
             </div>
         </div>
-    </section>
+    </main>
 
     <!-- 교육 로드맵 섹션 -->
-    <section id="roadmap" class="roadmap">
+    <section id="roadmap" class="roadmap" aria-labelledby="roadmap-title">
         <div class="container">
-            <h2>코칭 교육 로드맵</h2>
+            <h2 id="roadmap-title">코칭 교육 로드맵</h2>
             <p class="section-subtitle">오직 CiT 교육만으로 PCC 취득 및 KSC 지원이 가능합니다. 이곳저곳 왔다갔다하시지 말고 CiT에서 단계별로 체계적인 코칭 교육 과정을 경험하세요!</p>
             <p class="section-subtitle" style="font-size:1rem;color:#444;margin-top:-1.5rem;">*3Cs(Core Coaching Competencies) 과정은 국내/국제 동시인증 프로그램으로, 한국코치협회 및 ICF(국제코칭연맹) 자격증 지원 시 교육 시간으로 모두 인정됩니다.</p>
             
@@ -195,9 +260,9 @@
     </section>
 
     <!-- 추천 교육 섹션 -->
-    <section id="recommended" class="recommended">
+    <section id="recommended" class="recommended" aria-labelledby="recommended-title">
         <div class="container">
-            <h2>현재 추천 교육</h2>
+            <h2 id="recommended-title">현재 추천 교육</h2>
             <p class="section-subtitle">한국코치협회에 의하면 2026년 3차 시험부터 KPC 실습 시간은 200시간에서 300시간으로, KSC 실습 시간은 800시간에서 1,500시간으로 변경된다고 합니다.<br>그 전에 발빠르게 자격증을 취득하고 싶은 코치님들은 아래 교육 과정을 주목해 주세요!</p>
             
             <div class="recommended-grid">
@@ -207,20 +272,20 @@
                         <i class="fas fa-fire"></i>
                     </div>
                     <div class="card-content">
-                        <h3>성찰적 코칭 슈퍼비전(RCS)</h3>
-                        <p>RCS 과정이 ICF의 CCE 60시간을 취득하고, 한국코치협회 자격 갱신 시 48시간으로 인정받게 되었습니다!</p>
+                        <h3>Plus 과정</h3>
+                        <p>(사)한국코치협회 인증프로그램(심화 24시간)<br>국제코칭연맹(ICF) 인증프로그램(Level 2)<br>Basic 또는 타 기관 기초교육 이수 시 신청 가능</p>
                         <div class="course-highlights">
-                            <span><i class="fas fa-users"></i> 선착순 18명</span>
-                            <span><i class="fas fa-calendar"></i> 8월 14일 개강</span>
-                            <span><i class="fas fa-percent"></i> PCC 또는 KSC 코치 30% 할인 / KPC 코치 15% 할인 / RCS 설명회 참여 시 5% 추가 할인</span>
+                            <span><i class="fas fa-users"></i> 최대 20명</span>
+                            <span><i class="fas fa-calendar"></i> 9월 5일 개강</span>
+                            <span><i class="fas fa-clock"></i> 09:00-18:00</span>
                         </div>
                         <div class="course-price">
-                            <span class="original-price">₩1,980,000</span>
-                            <span class="discount-price">₩1,280,000</span>
-                            <span class="discount-badge">최대 35% 할인</span>
+                            <span class="original-price">₩880,000</span>
+                            <span class="discount-price">₩792,000</span>
+                            <span class="discount-badge">최대 10% 할인</span>
                         </div>
                         <div style="text-align:center;">
-                          <a class="enroll-btn" href="https://www.citkorea.co.kr/04/01.php?it_id=1728372470" target="_blank" rel="noopener noreferrer">수강 신청하기</a>
+                          <a class="enroll-btn" href="https://www.citkorea.co.kr/03/01_02.php" target="_blank" rel="noopener noreferrer">수강 신청하기</a>
                         </div>
                     </div>
                 </div>
@@ -230,20 +295,20 @@
                         <i class="fas fa-graduation-cap"></i>
                     </div>
                     <div class="card-content">
-                        <h3>Plus 과정</h3>
-                        <p>(사)한국코치협회 인증프로그램(심화 24시간)<br>국제코칭연맹(ICF) 인증프로그램(Level 2)<br>Basic 또는 타 기관 기초교육 이수 시 신청 가능</p>
+                        <h3>Coaching Technology 과정</h3>
+                        <p>(사)한국코치협회 인증프로그램(심화 24시간)<br>국제코칭연맹(ICF) 인증프로그램(Level 2)<br>KAC 자격 이상 신청 가능</p>
                         <div class="course-highlights">
                             <span><i class="fas fa-users"></i> 최대 20명</span>
-                            <span><i class="fas fa-calendar"></i> 8월 5일 개강</span>
-                            <span><i class="fas fa-clock"></i> 매주 화요일 09:00-18:00</span>
+                            <span><i class="fas fa-calendar"></i> 9월 9일 개강</span>
+                            <span><i class="fas fa-clock"></i> 09:00-18:00</span>
                         </div>
                         <div class="course-price">
-                            <span class="original-price">₩880,000</span>
-                            <span class="discount-price">₩792,000</span>
+                            <span class="original-price">₩1,100,000</span>
+                            <span class="discount-price">₩990,000</span>
                             <span class="discount-badge">최대 10% 할인</span>
                         </div>
                         <div style="text-align:center;">
-                          <a class="enroll-btn" href="https://www.citkorea.co.kr/04/01.php?it_id=1637398024" target="_blank" rel="noopener noreferrer">수강 신청하기</a>
+                          <a class="enroll-btn" href="https://www.citkorea.co.kr/03/01_04.php" target="_blank" rel="noopener noreferrer">수강 신청하기</a>
                         </div>
                     </div>
                 </div>
@@ -253,20 +318,20 @@
                         <i class="fas fa-certificate"></i>
                     </div>
                     <div class="card-content">
-                        <h3>Group Coaching 과정</h3>
-                        <p>(사)한국코치협회 인증프로그램(심화 24시간)<br>국제코칭연맹(ICF) 인증프로그램(Level 2)<br>KAC 이상 신청 가능</p>
+                        <h3>Process & Marketing 과정</h3>
+                        <p>(사)한국코치협회 인증프로그램(역량 24시간)<br>국제코칭연맹(ICF) 인증프로그램(Level 2)<br>Basic 또는 타 기관 기초교육 이수 시 신청 가능</p>
                         <div class="course-highlights">
                             <span><i class="fas fa-users"></i> 최대 20명</span>
-                            <span><i class="fas fa-calendar"></i> 8월 6일 개강</span>
-                            <span><i class="fas fa-clock"></i> 매주 수요일 09:00-18:00</span>
+                            <span><i class="fas fa-calendar"></i> 9월 11일 개강</span>
+                            <span><i class="fas fa-clock"></i> 매주 목요일 09:00-18:00</span>
                         </div>
                         <div class="course-price">
-                            <span class="original-price">₩1,100,000</span>
-                            <span class="discount-price">₩990,000</span>
+                            <span class="original-price">₩880,000</span>
+                            <span class="discount-price">₩792,000</span>
                             <span class="discount-badge">최대 10% 할인</span>
                         </div>
                         <div style="text-align:center;">
-                          <a class="enroll-btn" href="https://www.citkorea.co.kr/04/01.php?it_id=1642310321" target="_blank" rel="noopener noreferrer">수강 신청하기</a>
+                          <a class="enroll-btn" href="https://www.citkorea.co.kr/03/01_03.php" target="_blank" rel="noopener noreferrer">수강 신청하기</a>
                         </div>
                     </div>
                 </div>
@@ -275,28 +340,28 @@
     </section>
 
     <!-- 무료 행사 섹션 -->
-    <section id="free-events" class="free-events">
+    <section id="free-events" class="free-events" aria-labelledby="events-title">
         <div class="container">
-            <h2>예정된 행사 & 이벤트</h2>
+            <h2 id="events-title">예정된 행사 & 이벤트</h2>
             <p class="section-subtitle">이번 달에는 어떤 행사와 이벤트가 여러분을 기다리고 있을까요?</p>
             
             <div class="events-grid">
                 <div class="event-card free">
-                    <div class="event-badge">행사</div>
+                    <div class="event-badge">설명회</div>
                     <div class="event-date">
-                        <span class="month">7월</span>
-                        <span class="day">16일</span>
+                        <span class="month">8월</span>
+                        <span class="day">12일</span>
                     </div>
                     <div class="event-content">
-                        <h3>KAC 개더링</h3>
-                        <p>MCC 코치의 실제 여정을 담은 '리얼 성장 노트'를 공개합니다!</p>
+                        <h3>제15회 코칭설명회</h3>
+                        <p>코칭, 코칭 대화가 무엇인지 알려드려요.<br>커리어로서 전문코치라는 직업을 탐색해 보세요.</p>
                         <div class="event-details">
                             <span><i class="fas fa-clock"></i> 20:00-21:30</span>
                             <span><i class="fas fa-laptop"></i> 온라인(Zoom)</span>
-                            <span><i class="fas fa-users"></i> KAC 대상</span>
+                            <span><i class="fas fa-gift"></i> 설명회 참여 후 Basic 과정 신청 시 최대 13% 할인 (추천인 1만 포인트 제공)</span>
                         </div>
                         <div style="text-align:center;">
-                          <a class="event-btn" href="https://www.citkorea.co.kr/04/05.php?it_id=1678428984" target="_blank" rel="noopener noreferrer">무료 참가 신청</a>
+                          <a class="event-btn" href="https://blog.naver.com/citcoaching/223953654374" target="_blank" rel="noopener noreferrer">자세히 보기</a>
                         </div>
                     </div>
                 </div>
@@ -304,19 +369,19 @@
                 <div class="event-card free">
                     <div class="event-badge">설명회</div>
                     <div class="event-date">
-                        <span class="month">7월</span>
-                        <span class="day">22일</span>
+                        <span class="month">8월</span>
+                        <span class="day">13일</span>
                     </div>
                     <div class="event-content">
-                        <h3>RCS & 팀코칭 설명회</h3>
-                        <p>CiT의 최고 레벨 과정!<br>성찰적 코칭 슈퍼비전과 팀코칭 과정에 대해 알아보아요 :)</p>
+                        <h3>CiTCPC 설명회</h3>
+                        <p>CiT의 체계적인 교육 과정을 토대로<br>PCC 취득까지의 로드맵을 살펴보아요!</p>
                         <div class="event-details">
                             <span><i class="fas fa-clock"></i> 12:00-13:00</span>
                             <span><i class="fas fa-laptop"></i> 온라인(Zoom)</span>
                             <span><i class="fas fa-gift"></i> 설명회 참여 후 과정 신청 시 추가 할인 혜택 제공</span>
                         </div>
                         <div style="text-align:center;">
-                          <a class="event-btn" href="https://whattime.co.kr/citcoaching/rcslove" target="_blank" rel="noopener noreferrer">무료 참가 신청</a>
+                          <a class="event-btn" href="https://whattime.co.kr/citcoaching/citcpc" target="_blank" rel="noopener noreferrer">무료 참가 신청</a>
                         </div>
                     </div>
                 </div>
@@ -324,19 +389,19 @@
                 <div class="event-card free">
                     <div class="event-badge">이벤트</div>
                     <div class="event-date">
-                        <span class="month">7월</span>
+                        <span class="month">8월</span>
                         <span class="day">1~31일</span>
                     </div>
                     <div class="event-content">
-                        <h3>20시간 코칭 챌린지</h3>
-                        <p>KPC 지원 요건이 상향 조정되기 전에 합격하려면?<br>성장의 페이스를 끌어올려보세요!</p>
+                        <h3>CCE 인증 프로그램 20% 할인</h3>
+                        <p>ICF 핵심역량모델 과정이 CCE를 취득하였습니다!<br>이를 기념하여 ICF 자격 갱신 시 CCE로 인정되는 과정의 할인 이벤트를 진행합니다.</p>
                         <div class="event-steps">
-                          <div><span class="step-label">STEP 1</span><span class="step-desc">도전 댓글 달기</span></div>
-                          <div><span class="step-label">STEP 2</span><span class="step-desc">10시간 인증</span></div>
-                          <div><span class="step-label">STEP 3</span><span class="step-desc">20시간 인증</span></div>
+                          <div>✅ ICF 핵심역량모델 과정</div>
+                          <div>✅ FFUM[뿜:] 과정</div>
+                          <div>✅ 성찰적 코칭 슈퍼비전(RCS) 과정</div>
                         </div>
                         <div style="text-align:center;">
-                          <a class="event-btn" href="http://citnew.medicast.net/07_01/382" target="_blank" rel="noopener noreferrer">챌린지 참여하기</a>
+                          <a class="event-btn" href="https://www.citkorea.co.kr/07_01/391" target="_blank" rel="noopener noreferrer">자세히 보기</a>
                         </div>
                     </div>
                 </div>
@@ -345,24 +410,24 @@
     </section>
 
     <!-- 패키지 코스 섹션 -->
-    <section id="packages" class="packages">
+    <section id="packages" class="packages" aria-labelledby="packages-title">
         <div class="container">
-            <h2>패키지 코스</h2>
+            <h2 id="packages-title">패키지 코스</h2>
             <p class="section-subtitle">목표로 하는 자격에 따라 맞춤형 패키지로 시간과 비용을 절약하세요!</p>
             <div class="packages-grid">
-                <a href="http://citnew.medicast.net/03/07_01.php" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
+                <a href="https://www.citkorea.co.kr/03/07_01.php" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
                 <div class="package-card">
                     <h3>KAC 패키지</h3>
                     <p>기초교육 Basic 과정 + KAC 준비반</p>
                 </div>
                 </a>
-                <a href="http://citnew.medicast.net/03/07_02.php" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
+                <a href="https://www.citkorea.co.kr/03/07_02.php" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
                 <div class="package-card">
                     <h3>KPC 패키지</h3>
                     <p>심화교육 Plus 과정 + 타 심화/역량 과정 + KPC 준비반</p>
                 </div>
                 </a>
-                <a href="http://citnew.medicast.net/03/07_03.php" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
+                <a href="https://www.citkorea.co.kr/03/07_03.php" target="_blank" rel="noopener noreferrer" style="text-decoration:none;color:inherit;">
                 <div class="package-card">
                     <h3>PCC 패키지</h3>
                     <p>3Cs 과정 3개 이상 + PCC 준비반(CiTCPC 과정)</p>
@@ -418,28 +483,28 @@
     </section>
 
     <!-- 푸터 -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>CiT코칭연구소</h3>
                     <p>체계적인 코칭 교육과 지속적인 연구를 통해 개인과 조직의 성장을 지원합니다.</p>
                 </div>
-                <div class="footer-section">
+                <nav class="footer-section" role="navigation" aria-label="푸터 네비게이션">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#roadmap">교육 로드맵</a></li>
-                        <li><a href="#recommended">추천 교육</a></li>
-                        <li><a href="#free-events">무료 행사</a></li>
-                        <li><a href="#packages">신상 패키지</a></li>
+                        <li><a href="#roadmap" aria-label="교육 로드맵 섹션으로 이동">교육 로드맵</a></li>
+                        <li><a href="#recommended" aria-label="추천 교육 섹션으로 이동">추천 교육</a></li>
+                        <li><a href="#free-events" aria-label="무료 행사 섹션으로 이동">무료 행사</a></li>
+                        <li><a href="#packages" aria-label="신상 패키지 섹션으로 이동">신상 패키지</a></li>
                     </ul>
-                </div>
-                <div class="footer-section">
+                </nav>
+                <address class="footer-section">
                     <h3>Contact</h3>
-                    <p>대표번호: 02-567-7136</p>
-                    <p>이메일: class@citkorea.co.kr</p>
+                    <p>대표번호: <a href="tel:+82-2-567-7136" aria-label="전화번호 02-567-7136로 전화하기">02-567-7136</a></p>
+                    <p>이메일: <a href="mailto:class@citkorea.co.kr" aria-label="이메일 class@citkorea.co.kr로 메일 보내기">class@citkorea.co.kr</a></p>
                     <p>주소: 서울특별시 서초구 서초중앙로 48 한솔빌딩 6층, 7층</p>
-                </div>
+                </address>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 CiT코칭연구소. All rights reserved.</p>
