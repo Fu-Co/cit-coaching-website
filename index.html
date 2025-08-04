@@ -521,31 +521,41 @@
             <div class="footer-bottom">
                 <p>&copy; 2025 CiT코칭연구소. All rights reserved.</p>
                 <p style="font-size: 0.9rem; color: #888; margin-top: 0.5rem;">
-                    방문자 수: <span id="visitor-count">0</span>명
+                    방문자 수: <span id="visitor-count">로딩 중...</span>
                 </p>
+                <!-- Hit Counter 방문자 카운터 -->
+                <div style="text-align: center; margin-top: 10px;">
+                    <a href="https://www.hitwebcounter.com" target="_blank">
+                        <img src="https://hitwebcounter.com/counter/counter.php?page=1234567&style=0006&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter" border="0" />
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
     
-    <!-- 방문자 카운터 -->
+    <!-- Flag Counter 방문자 카운터 -->
     <script>
-        // 로컬 스토리지를 사용한 간단한 방문자 카운터
-        function updateVisitorCount() {
-            let count = localStorage.getItem('visitorCount') || 0;
-            count = parseInt(count) + 1;
-            localStorage.setItem('visitorCount', count);
-            
-            // 방문자 수를 표시할 요소가 있다면 업데이트
+        // Flag Counter 방문자 수 표시
+        function loadVisitorCount() {
             const visitorElement = document.getElementById('visitor-count');
             if (visitorElement) {
-                visitorElement.textContent = count.toLocaleString();
+                // Flag Counter API에서 방문자 수 가져오기
+                fetch('https://api.flagcounter.com/count/1/cit-coaching-website')
+                    .then(response => response.text())
+                    .then(data => {
+                        // 간단한 카운터 표시 (실제로는 Flag Counter 위젯 사용)
+                        visitorElement.innerHTML = '<a href="https://flagcounter.com/cit-coaching-website" target="_blank">방문자 수 확인</a>';
+                    })
+                    .catch(error => {
+                        visitorElement.textContent = '방문자 수 로딩 중...';
+                    });
             }
         }
         
-        // 페이지 로드 시 방문자 수 업데이트
-        document.addEventListener('DOMContentLoaded', updateVisitorCount);
+        // 페이지 로드 시 방문자 수 로드
+        document.addEventListener('DOMContentLoaded', loadVisitorCount);
     </script>
 </body>
 </html> 
