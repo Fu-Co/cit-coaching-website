@@ -521,12 +521,12 @@
             <div class="footer-bottom">
                 <p>&copy; 2025 CiT코칭연구소. All rights reserved.</p>
                 <p style="font-size: 0.9rem; color: #888; margin-top: 0.5rem;">
-                    방문자 수: <span id="visitor-count">로딩 중...</span>
+                    방문자 수
                 </p>
-                <!-- Hit Counter 방문자 카운터 -->
-                <div style="text-align: center; margin-top: 10px;">
+                <!-- hitwebcounter Code START -->
+                <div style="text-align: center; margin-top: 5px;">
                     <a href="https://www.hitwebcounter.com" target="_blank">
-                        <img src="https://hitwebcounter.com/counter/counter.php?page=1234567&style=0006&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter" border="0" />
+                        <img src="https://hitwebcounter.com/counter/counter.php?page=21313539&style=0006&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites" border="0" />
                     </a>
                 </div>
             </div>
@@ -535,27 +535,6 @@
 
     <script src="script.js"></script>
     
-    <!-- Flag Counter 방문자 카운터 -->
-    <script>
-        // Flag Counter 방문자 수 표시
-        function loadVisitorCount() {
-            const visitorElement = document.getElementById('visitor-count');
-            if (visitorElement) {
-                // Flag Counter API에서 방문자 수 가져오기
-                fetch('https://api.flagcounter.com/count/1/cit-coaching-website')
-                    .then(response => response.text())
-                    .then(data => {
-                        // 간단한 카운터 표시 (실제로는 Flag Counter 위젯 사용)
-                        visitorElement.innerHTML = '<a href="https://flagcounter.com/cit-coaching-website" target="_blank">방문자 수 확인</a>';
-                    })
-                    .catch(error => {
-                        visitorElement.textContent = '방문자 수 로딩 중...';
-                    });
-            }
-        }
-        
-        // 페이지 로드 시 방문자 수 로드
-        document.addEventListener('DOMContentLoaded', loadVisitorCount);
-    </script>
+
 </body>
 </html> 
