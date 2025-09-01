@@ -20,7 +20,7 @@ body {
 
 /* 헤더 스타일 */
 .header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
     position: fixed;
     top: 0;
     width: 100%;
@@ -86,7 +86,7 @@ body {
 
 /* 히어로 섹션 */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
     color: white;
     padding: 180px 0 80px;
     display: flex;
@@ -130,7 +130,7 @@ body {
 }
 
 .cta-button.primary {
-    background: #ffd700;
+    background: #a8c090;
     color: #333;
 }
 
@@ -214,9 +214,9 @@ section h2 {
     align-items: flex-start;
     gap: 2rem;
     padding: 2rem;
-    background: #f8f9fa;
+    background: #f0f4ed;
     border-radius: 15px;
-    border-left: 5px solid #667eea;
+    border-left: 5px solid #5d7c3f;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -228,7 +228,7 @@ section h2 {
 .roadmap-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -266,7 +266,7 @@ section h2 {
     content: "✓";
     position: absolute;
     left: 0;
-    color: #667eea;
+    color: #5d7c3f;
     font-weight: bold;
 }
 
@@ -274,13 +274,13 @@ section h2 {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: #667eea;
+    color: #5d7c3f;
     font-weight: 500;
 }
 
 /* 추천 교육 섹션 */
 .recommended {
-    background: #eaf3fb;
+    background: #f0f8f0;
 }
 
 .recommended-grid {
@@ -305,14 +305,14 @@ section h2 {
 }
 
 .recommended-card.featured {
-    border: 3px solid #ffd700;
+    border: 3px solid #a8c090;
 }
 
 .card-badge {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    background: #ff6b6b;
+    background: #5d7c3f;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -322,7 +322,7 @@ section h2 {
 
 .card-image {
     height: 150px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -363,7 +363,7 @@ section h2 {
 }
 
 .course-highlights i {
-    color: #667eea;
+    color: #5d7c3f;
     width: 16px;
 }
 
@@ -381,13 +381,13 @@ section h2 {
 }
 
 .discount-price {
-    color: #ff6b6b;
+    color: #5d7c3f;
     font-size: 1.3rem;
     font-weight: 700;
 }
 
 .discount-badge {
-    background: #ff6b6b;
+    background: #5d7c3f;
     color: white;
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
@@ -404,7 +404,7 @@ section h2 {
 .enroll-btn {
     width: 100%;
     padding: 12px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
     color: white;
     border: none;
     border-radius: 8px;
@@ -415,12 +415,12 @@ section h2 {
 
 .enroll-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 15px rgba(93, 124, 63, 0.4);
 }
 
 /* 무료 행사 섹션 */
 .free-events {
-    background: #f6eafd;
+    background: #f8f5f0;
 }
 
 .events-grid {
@@ -446,14 +446,14 @@ section h2 {
 }
 
 .event-card.free {
-    border-color: #28a745;
+    border-color: #5d7c3f;
 }
 
 .event-badge {
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background: #28a745;
+    background: #5d7c3f;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -462,7 +462,7 @@ section h2 {
 }
 
 .event-date {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
     color: white;
     padding: 1.5rem;
     text-align: center;
@@ -513,14 +513,14 @@ section h2 {
 }
 
 .event-details i {
-    color: #667eea;
+    color: #5d7c3f;
     width: 16px;
 }
 
 .event-btn {
     width: 100%;
     padding: 12px;
-    background: #28a745;
+    background: #5d7c3f;
     color: white;
     border: none;
     border-radius: 8px;
@@ -530,7 +530,7 @@ section h2 {
 }
 
 .event-btn:hover {
-    background: #218838;
+    background: #4a7c59;
     transform: translateY(-2px);
 }
 
@@ -546,7 +546,7 @@ section h2 {
 }
 .step-label {
   display: inline-block;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(90deg, #5d7c3f 0%, #7a9c6b 100%);
   color: #fff;
   border-radius: 10px;
   padding: 0.08em 0.7em 0.08em 0.7em;
@@ -555,7 +555,7 @@ section h2 {
   margin-right: 0.5em;
   min-width: 68px;
   text-align: center;
-  box-shadow: 0 1.5px 6px rgba(102,126,234,0.07);
+  box-shadow: 0 1.5px 6px rgba(93,124,63,0.07);
   letter-spacing: 0.01em;
 }
 .step-desc {
@@ -644,7 +644,7 @@ section h2 {
 
 /* 푸터 */
 .footer {
-    background: #333;
+    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
     color: white;
     padding: 3rem 0 1rem;
 }
@@ -682,7 +682,7 @@ section h2 {
 }
 
 .footer-section ul li a:hover {
-    color: #ffd700;
+    color: #a8c090;
 }
 
 .footer-bottom {
@@ -694,7 +694,7 @@ section h2 {
 
 /* 패키지 코스 섹션 */
 .packages {
-    background: #eafbf2;
+    background: #f5f0f8;
 }
 
 .packages-grid {
@@ -711,19 +711,19 @@ section h2 {
     padding: 2rem;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
-    border: 2px solid #667eea22;
+    border: 2px solid #5d7c3f22;
 }
 
 .package-card:hover {
     transform: translateY(-5px) scale(1.03);
-    box-shadow: 0 10px 30px rgba(102,126,234,0.12);
-    border-color: #667eea;
+    box-shadow: 0 10px 30px rgba(93,124,63,0.12);
+    border-color: #5d7c3f;
 }
 
 .package-card h3 {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #667eea;
+    color: #5d7c3f;
     margin-bottom: 1rem;
 }
 

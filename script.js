@@ -279,7 +279,7 @@ const additionalStyles = `
     }
     
     .header.scrolled {
-        background: rgba(102, 126, 234, 0.95);
+        background: rgba(93, 124, 63, 0.95);
         backdrop-filter: blur(10px);
     }
     
@@ -290,7 +290,7 @@ const additionalStyles = `
         top: 100%;
         left: 0;
         right: 0;
-        background: rgba(102, 126, 234, 0.95);
+        background: rgba(93, 124, 63, 0.95);
         backdrop-filter: blur(10px);
         padding: 1rem;
     }
