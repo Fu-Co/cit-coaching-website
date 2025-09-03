@@ -104,7 +104,7 @@ body {
 .hero-content h1 {
     font-size: 3.5rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     line-height: 1.2;
 }
 
@@ -112,6 +112,7 @@ body {
     font-size: 1.2rem;
     margin-bottom: 2rem;
     opacity: 0.9;
+    white-space: nowrap;
 }
 
 .hero-buttons {
@@ -420,7 +421,7 @@ section h2 {
 
 /* 무료 행사 섹션 */
 .free-events {
-    background: #f8f5f0;
+    background: #fef9e7;
 }
 
 .events-grid {
@@ -453,12 +454,13 @@ section h2 {
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background: #5d7c3f;
+    background: #8b4513;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.8rem;
     font-weight: 600;
+    box-shadow: 0 2px 8px rgba(139, 69, 19, 0.3);
 }
 
 .event-date {
@@ -694,7 +696,7 @@ section h2 {
 
 /* 패키지 코스 섹션 */
 .packages {
-    background: #f5f0f8;
+    background: #f5f1eb;
 }
 
 .packages-grid {
