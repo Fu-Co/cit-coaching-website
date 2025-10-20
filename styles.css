@@ -9,7 +9,7 @@ body {
     font-family: 'Pretendard', 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Segoe UI', 'sans-serif';
     line-height: 1.6;
     color: #333;
-    background-color: #f8f9fa;
+    background-color: #f0f2f5;
 }
 
 .container {
@@ -20,12 +20,12 @@ body {
 
 /* 헤더 스타일 */
 .header {
-    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
+    background: linear-gradient(135deg, #20b2aa 0%, #008b8b 100%);
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(32, 178, 170, 0.3);
 }
 
 .navbar {
@@ -86,7 +86,7 @@ body {
 
 /* 히어로 섹션 */
 .hero {
-    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
+    background: linear-gradient(135deg, #20b2aa 0%, #008b8b 100%);
     color: white;
     padding: 180px 0 80px;
     display: flex;
@@ -131,13 +131,14 @@ body {
 }
 
 .cta-button.primary {
-    background: #a8c090;
-    color: #333;
+    background: #ff7f50;
+    color: white;
 }
 
 .cta-button.primary:hover {
-    background: #ffed4e;
+    background: #ff6347;
     transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 127, 80, 0.4);
 }
 
 .cta-button.secondary {
@@ -199,7 +200,7 @@ section h2 {
 
 /* 로드맵 섹션 */
 .roadmap {
-    background: #ffffff;
+    background: linear-gradient(135deg, #f0fffe 0%, #e0f7f7 100%);
 }
 
 .roadmap-container {
@@ -215,10 +216,11 @@ section h2 {
     align-items: flex-start;
     gap: 2rem;
     padding: 2rem;
-    background: #f0f4ed;
+    background: linear-gradient(135deg, #ffffff 0%, #f0fffe 100%);
     border-radius: 15px;
-    border-left: 5px solid #5d7c3f;
+    border-left: 5px solid #20b2aa;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(32, 178, 170, 0.1);
 }
 
 .roadmap-item:hover {
@@ -229,7 +231,7 @@ section h2 {
 .roadmap-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
+    background: linear-gradient(135deg, #20b2aa 0%, #008b8b 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -237,6 +239,7 @@ section h2 {
     color: white;
     font-size: 1.5rem;
     flex-shrink: 0;
+    box-shadow: 0 4px 15px rgba(32, 178, 170, 0.3);
 }
 
 .roadmap-content h3 {
@@ -267,7 +270,7 @@ section h2 {
     content: "✓";
     position: absolute;
     left: 0;
-    color: #5d7c3f;
+    color: #20b2aa;
     font-weight: bold;
 }
 
@@ -275,13 +278,13 @@ section h2 {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: #5d7c3f;
+    color: #20b2aa;
     font-weight: 500;
 }
 
 /* 추천 교육 섹션 */
 .recommended {
-    background: #f0f8f0;
+    background: linear-gradient(135deg, #fff8f0 0%, #ffe8d6 100%);
 }
 
 .recommended-grid {
@@ -306,29 +309,32 @@ section h2 {
 }
 
 .recommended-card.featured {
-    border: 3px solid #a8c090;
+    border: 3px solid #ff7f50;
+    box-shadow: 0 8px 25px rgba(255, 127, 80, 0.2);
 }
 
 .card-badge {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    background: #5d7c3f;
+    background: #ff7f50;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.8rem;
     font-weight: 600;
+    box-shadow: 0 4px 15px rgba(255, 127, 80, 0.3);
 }
 
 .card-image {
     height: 150px;
-    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
+    background: linear-gradient(135deg, #ff7f50 0%, #ffa07a 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 3rem;
+    box-shadow: 0 4px 15px rgba(255, 127, 80, 0.2);
 }
 
 .card-content {
@@ -364,7 +370,7 @@ section h2 {
 }
 
 .course-highlights i {
-    color: #5d7c3f;
+    color: #ff7f50;
     width: 16px;
 }
 
@@ -382,18 +388,19 @@ section h2 {
 }
 
 .discount-price {
-    color: #5d7c3f;
+    color: #ff7f50;
     font-size: 1.3rem;
     font-weight: 700;
 }
 
 .discount-badge {
-    background: #5d7c3f;
+    background: #ff7f50;
     color: white;
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     font-size: 0.8rem;
     font-weight: 600;
+    box-shadow: 0 2px 8px rgba(255, 127, 80, 0.3);
 }
 
 .price {
@@ -405,23 +412,24 @@ section h2 {
 .enroll-btn {
     width: 100%;
     padding: 12px;
-    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
+    background: linear-gradient(135deg, #ff7f50 0%, #ffa07a 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 127, 80, 0.2);
 }
 
 .enroll-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(93, 124, 63, 0.4);
+    box-shadow: 0 8px 25px rgba(255, 127, 80, 0.4);
 }
 
 /* 무료 행사 섹션 */
 .free-events {
-    background: #fef9e7;
+    background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
 }
 
 .events-grid {
@@ -447,27 +455,28 @@ section h2 {
 }
 
 .event-card.free {
-    border-color: #5d7c3f;
+    border-color: #87ceeb;
+    box-shadow: 0 4px 15px rgba(135, 206, 235, 0.1);
 }
 
 .event-badge {
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background: #8b4513;
+    background: #ff7f50;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.8rem;
     font-weight: 600;
-    box-shadow: 0 2px 8px rgba(139, 69, 19, 0.3);
 }
 
 .event-date {
-    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
+    background: linear-gradient(135deg, #87ceeb 0%, #5dade2 100%);
     color: white;
     padding: 1.5rem;
     text-align: center;
+    box-shadow: 0 4px 15px rgba(135, 206, 235, 0.2);
 }
 
 .event-date .month {
@@ -515,25 +524,27 @@ section h2 {
 }
 
 .event-details i {
-    color: #5d7c3f;
+    color: #87ceeb;
     width: 16px;
 }
 
 .event-btn {
     width: 100%;
     padding: 12px;
-    background: #5d7c3f;
+    background: #87ceeb;
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(135, 206, 235, 0.2);
 }
 
 .event-btn:hover {
-    background: #4a7c59;
+    background: #5dade2;
     transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(135, 206, 235, 0.4);
 }
 
 .event-steps {
@@ -646,7 +657,7 @@ section h2 {
 
 /* 푸터 */
 .footer {
-    background: linear-gradient(135deg, #5d7c3f 0%, #7a9c6b 100%);
+    background: linear-gradient(135deg, #20b2aa 0%, #008b8b 100%);
     color: white;
     padding: 3rem 0 1rem;
 }
@@ -684,7 +695,7 @@ section h2 {
 }
 
 .footer-section ul li a:hover {
-    color: #a8c090;
+    color: #ff7f50;
 }
 
 .footer-bottom {
@@ -696,7 +707,7 @@ section h2 {
 
 /* 패키지 코스 섹션 */
 .packages {
-    background: #f5f1eb;
+    background: linear-gradient(135deg, #f0fff0 0%, #e8f5e8 100%);
 }
 
 .packages-grid {
@@ -713,19 +724,19 @@ section h2 {
     padding: 2rem;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
-    border: 2px solid #5d7c3f22;
+    border: 2px solid #90EE9022;
 }
 
 .package-card:hover {
     transform: translateY(-5px) scale(1.03);
-    box-shadow: 0 10px 30px rgba(93,124,63,0.12);
-    border-color: #5d7c3f;
+    box-shadow: 0 10px 30px rgba(144, 238, 144, 0.2);
+    border-color: #90EE90;
 }
 
 .package-card h3 {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #5d7c3f;
+    color: #90EE90;
     margin-bottom: 1rem;
 }
 
